@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "josefin-sans-serif,sans-serif";
+}
+.carousel-inner img
+{
+	width: 100%;
+	height: 90vh;
+}
+
+.about-img
+{
+	width: 100%;
+	height: 250px!important;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.service body
+{
+	background: #111;
+	color: #fff;
+}
+
+.service{
+	padding: 100px 0;
+	font-family: 'poppins', sans-serif;
+	
+}
+
+.max-width
+{
+	max-width: 1300px;
+	padding: 0 45px;
+	margin: auto;
+}
+
+.max-width h1
+{
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	font-weight: 500;
+	margin-bottom: 60px;
+	padding-bottom: 20px;
+}
+
+.max-width h1::after
+{
+	content: '';
+	position: absolute;
+	width: 180px;
+	height: 3px;
+	background: #fff;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+.content
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card
+{
+	padding: 50px 25px;
+	width: calc(26% - 20px);
+	border-radius: 6px;
+	background: #222;
+	text-align: center;
+	user-select: none;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.card :hover{
+	background-color: #dc143c;
+}
+
+.box
+{
+	transition: all 0.3s ease;
+}
+
+.card :hover .box
+{
+		transform: scale(1.05);
+}
+
+.box i
+{
+	font-size:50px;
+}
+
+.card :hover .box i
+{
+		color: #fff;
+}
+
+.box h3
+{
+	font-size: 25px;
+	padding: 10px 0 7px;
+}
+
+@media screen and (max-width:1190px) {
+	.max-width
+	{
+		padding: 0 25px;
+	}
+
+	.card
+	{
+		width: calc(50% - 10px);
+		margin-bottom: 20px;
+	}
+
+}
+
+
+@media screen and (max-width:700px) {
+	.max-width
+	{
+		padding: 0 25px;
+	}
+
+	.card
+	{
+		width:100%;
+		
+	}
+
+}
